@@ -14,9 +14,10 @@
         flex-direction: column 
         gap: 1rem
         padding: 1rem
-        border: 1px solid #333
         width: 17%
         border-radius: variables.$card-border-radius 
+        @include mixins.box-shadow(#0011ff, 1)
+        @include mixins.hover-shadow(#ff0000, 1) 
 
         h3
             color: variables.$text-color
@@ -64,7 +65,7 @@
 @media (max-width: 480px)
     .technologies-container
         .technologies-grid
-            gap: 0.5rem
+            gap: 1.4rem
 
         .technology-card
             width: 45%
