@@ -23,14 +23,18 @@
     .mobile-header
         display: none
 
-@media (max-width: 768px)
+@media (max-width: 880px)
     #portfolio
         padding: 0rem
         gap: 1rem
+        flex-direction: column
 
+        
         .mobile-header
             display: flex
             width: 100%
+            position: fixed 
+            z-index: 100      
 
         .desktop-title
             display: none
