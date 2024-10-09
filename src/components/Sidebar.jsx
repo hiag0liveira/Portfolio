@@ -13,7 +13,7 @@ const Sidebar = () => {
       <SocialNetworkContainer />
       <InformationContainer />
       <a
-        href="/curriculo.pdf"
+        href="/Hiago De Oliveira Mendes - Curriculo.pdf"
         className="btn"
         download="Hiago De Oliveira Mendes - Curriculo.pdf"
       >
