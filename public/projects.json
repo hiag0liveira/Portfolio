@@ -9,9 +9,9 @@
             "Animate On Scroll Library"
         ],
         "imgs": [
-            "/imgs/Ol1v3iraxSpaceships/1.png",
-            "/imgs/Ol1v3iraxSpaceships/2.png",
-            "/imgs/Ol1v3iraxSpaceships/3.png",
+            "imgs/Ol1v3iraxSpaceships/1.png",
+            "imgs/Ol1v3iraxSpaceships/2.png",
+            "imgs/Ol1v3iraxSpaceships/3.png",
             "/imgs/Ol1v3iraxSpaceships/4.png"
         ],
         "demo": "https://hiag0liveira.github.io/Ol1v3iraxSpaceships/",
