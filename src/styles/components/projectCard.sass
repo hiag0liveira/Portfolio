@@ -12,8 +12,7 @@
   color: variables.$text-color
 
 .project-images
-  margin: 20px 0
-  margin-bottom: 30px
+  margin: 20px 0px 30px 0
 
 
   .image-slider
@@ -40,7 +39,7 @@
     color: #007bff
     cursor: pointer
     &:hover
-      text-decoration: underline
+      color: #0056b3
 
 .project-links
   display: flex
@@ -52,9 +51,13 @@
     display: flex
     gap: 6px
     align-items: center
-
     &:hover
-      text-decoration: underline
+      color: #ff0000
+
+  svg 
+    transition: color 0s ease
+    &:hover
+      color: #ff0000
 
 .slick-prev,
 .slick-next 
