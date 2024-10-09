@@ -9,10 +9,10 @@
             "Animate On Scroll Library"
         ],
         "imgs": [
-            "/imgs/Ol1v3iraxSpaceships/1.png",
-            "/imgs/Ol1v3iraxSpaceships/2.png",
-            "/imgs/Ol1v3iraxSpaceships/3.png",
-            "/imgs/Ol1v3iraxSpaceships/4.png"
+            "/statics/images/Ol1v3iraxSpaceships/1.png",
+            "/statics/images/Ol1v3iraxSpaceships/2.png",
+            "/statics/images/Ol1v3iraxSpaceships/3.png",
+            "/statics/images/Ol1v3iraxSpaceships/4.png"
         ],
         "demo": "https://hiag0liveira.github.io/Ol1v3iraxSpaceships/",
         "code": "https://github.com/hiag0liveira/Ol1v3iraxSpaceships"
@@ -26,8 +26,8 @@
             "Bootstrap"
         ],
         "imgs": [
-            "/imgs/RegistrationPageOl1v3irax/1.png",
-            "/imgs/RegistrationPageOl1v3irax/2.png"
+            "/statics/images/RegistrationPageOl1v3irax/1.png",
+            "/statics/images/RegistrationPageOl1v3irax/2.png"
         ],
         "demo": "https://hiag0liveira.github.io/RegistrationPageOl1v3irax/",
         "code": "https://github.com/hiag0liveira/RegistrationPageOl1v3irax"
@@ -47,9 +47,9 @@
             "Postman"
         ],
         "imgs": [
-            "/imgs/ProductSalesAPISpringBoot/1.png",
-            "/imgs/ProductSalesAPISpringBoot/2.png",
-            "/imgs/ProductSalesAPISpringBoot/3.png"
+            "/statics/images/ProductSalesAPISpringBoot/1.png",
+            "/statics/images/ProductSalesAPISpringBoot/2.png",
+            "/statics/images/ProductSalesAPISpringBoot/3.png"
         ],
         "demo": "https://documenter.getpostman.com/view/25811172/2s93JtQ3zT",
         "code": "https://github.com/hiag0liveira/ProductSalesAPISpringBoot?tab=readme-ov-file"
@@ -63,8 +63,8 @@
             "JavaScript"
         ],
         "imgs": [
-            "/imgs/CalculatorJS/1.png",
-            "/imgs/CalculatorJS/2.png"
+            "/statics/images/CalculatorJS/1.png",
+            "/statics/images/CalculatorJS/2.png"
         ],
         "demo": "https://hiag0liveira.github.io/CalculatorJS/",
         "code": "https://github.com/hiag0liveira/CalculatorJS"
@@ -78,9 +78,9 @@
             "JavaScript"
         ],
         "imgs": [
-            "/imgs/HashGameJS/1.png",
-            "/imgs/HashGameJS/2.png",
-            "/imgs/HashGameJS/3.png"
+            "/statics/images/HashGameJS/1.png",
+            "/statics/images/HashGameJS/2.png",
+            "/statics/images/HashGameJS/3.png"
         ],
         "demo": "https://hiag0liveira.github.io/HashGameJS/",
         "code": "https://github.com/hiag0liveira/HashGameJS"
