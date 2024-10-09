@@ -1,16 +1,25 @@
+import React, { useEffect, useState } from "react";
+import ProjectCard from "./ProjectCard";
+import "../styles/components/projectsContainer.sass";
 const ProjectsContainer = () => {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    // Carregando o JSON da pasta public
+    fetch("/projects.json")
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch((error) => console.error("Erro ao carregar projetos:", error));
+  }, []);
+
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore at
-        rem fugit provident dolorum exercitationem, ducimus quisquam ratione
-        cumque reiciendis accusamus totam, veniam iusto numquam distinctio.
-        Dignissimos labore aspernatur pariatur?
-      </p>
-      <a href="#" className="btn">
-        Ver Projetos
-      </a>
+      <div className="projects-grid">
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
     </section>
   );
 };
