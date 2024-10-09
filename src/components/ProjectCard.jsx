@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
           {project.imgs.map((img, index) => (
             <div key={index}>
               <img
-                src={img}
+                src={`https://hiag0liveira.software${img}`}
                 alt={`${project.name} screenshot`}
                 className="image-slider"
               />
