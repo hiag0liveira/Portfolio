@@ -19,7 +19,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   return (
     <div className="pagination">
       <span
-        className="arrow"
+        className="arrow-page"
         onClick={handlePrevPage}
         disabled={currentPage === 1}
       >
@@ -29,7 +29,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         Página {currentPage} de {totalPages}
       </span>
       <span
-        className="arrow"
+        className="arrow-page"
         onClick={handleNextPage}
         disabled={currentPage === totalPages}
       >

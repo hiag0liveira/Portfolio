@@ -23,7 +23,7 @@ const InformationContainer = () => {
       <div className="info-card" onClick={handleLikedinClick}>
         <FaLinkedinIn id="linkedin-icon" />
         <div>
-          <h3>Linkedin</h3>
+          <h3>LinkedIn</h3>
           <p>Hiago Oliveira</p>
         </div>
       </div>
