@@ -1,0 +1,25 @@
+@use '../variables'
+@use '../mixins' 
+
+.pagination
+  display: flex
+  justify-content: center
+  align-items: center
+  color: variables.$text-color
+  margin-top: 2rem
+  gap: 10px 
+
+  button
+    padding: 1rem
+    margin: 20px 0
+    color: variables.$text-color
+    background-color: transparent
+
+span
+    font-size: 16px
+    border-radius: 10px
+    
+.arrow
+    @include mixins.box-shadow(#0011ff, 1)
+    @include mixins.hover-shadow(#ff0000, 1) 
+    font-weight: bold
