@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import { FaCode, FaEye } from "react-icons/fa";
 import "../styles/components/projectCard.sass";
@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ProjectCard = ({ project }) => {
   const [readMore, setReadMore] = useState(false);
+  const [showReadMoreButton, setShowReadMoreButton] = useState(false);
+  const textRef = useRef(null);
 
   const sliderSettings = {
     dots: true,
@@ -17,6 +19,14 @@ const ProjectCard = ({ project }) => {
     autoplay: true,
     autoplaySpeed: 3500,
   };
+
+  useEffect(() => {
+    if (textRef.current) {
+      const hasOverflow =
+        textRef.current.scrollHeight > textRef.current.clientHeight;
+      setShowReadMoreButton(hasOverflow);
+    }
+  }, []);
 
   return (
     <div className="project-card">
@@ -36,16 +46,18 @@ const ProjectCard = ({ project }) => {
       </div>
 
       <div className="project-info">
-        <p className={readMore ? "full-text" : "clamped-text"}>
+        <p ref={textRef} className={readMore ? "full-text" : "clamped-text"}>
           <strong>Tecnologias: </strong>
           {project.techs.join(", ")}
         </p>
-        <button
-          onClick={() => setReadMore((prev) => !prev)}
-          className="read-more-btn"
-        >
-          {readMore ? "Ler menos" : "Ler mais..."}
-        </button>
+        {showReadMoreButton && (
+          <button
+            onClick={() => setReadMore((prev) => !prev)}
+            className="read-more-btn"
+          >
+            {readMore ? "Ler menos" : "Ler mais..."}
+          </button>
+        )}
       </div>
 
       <div className="project-links">
