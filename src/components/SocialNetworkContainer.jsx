@@ -3,11 +3,6 @@ import "../styles/components/socialnetworkcontainer.sass";
 
 const socialNetworks = [
   {
-    name: "linkedin",
-    icon: <FaLinkedinIn />,
-    url: "https://www.linkedin.com/in/hiago-oliveira-520647212/",
-  },
-  {
     name: "github",
     icon: <FaGithub />,
     url: "https://github.com/hiag0liveira",

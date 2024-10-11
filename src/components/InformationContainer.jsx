@@ -1,15 +1,8 @@
 import "../styles/components/informationcontainer.sass";
-
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
 
 const InformationContainer = () => {
-  const handlePhoneClick = () => {
-    window.open(
-      "https://api.whatsapp.com/send/?phone=5522997860606&text&type=phone_number&app_absent=0",
-      "_blank"
-    );
-  };
-
   const handleEmailClick = () => {
     window.location.href = "mailto:hiagoliv3ira@gmail.com";
   };
@@ -18,13 +11,20 @@ const InformationContainer = () => {
     window.open("https://maps.app.goo.gl/ok61zQmxLWXsREAA9", "_blank");
   };
 
+  const handleLikedinClick = () => {
+    window.open(
+      "https://www.linkedin.com/in/hiago-oliveira-520647212/",
+      "_blank"
+    );
+  };
+
   return (
     <section id="information">
-      <div className="info-card" onClick={handlePhoneClick}>
-        <AiFillPhone id="phone-icon" />
+      <div className="info-card" onClick={handleLikedinClick}>
+        <FaLinkedinIn id="linkedin-icon" />
         <div>
-          <h3>Telefone</h3>
-          <p>(22) 99786-0606</p>
+          <h3>Linkedin</h3>
+          <p>Hiago Oliveira</p>
         </div>
       </div>
       <div className="info-card" onClick={handleEmailClick}>
