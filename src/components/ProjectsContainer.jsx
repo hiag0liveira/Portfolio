@@ -5,7 +5,6 @@ const ProjectsContainer = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    // Carregando o JSON da pasta public
     fetch("/projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data))
