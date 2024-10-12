@@ -1,0 +1,45 @@
+@use '../variables'
+@use '../mixins'
+
+.education-container
+  padding: 2rem
+  background-color: variables.$bg-color
+  border-radius: variables.$container-border-radius
+
+  h2
+    color: variables.$text-color
+    margin-bottom: 1.5rem
+    @include mixins.center
+    justify-content: start
+    gap: 1rem
+
+    &:after
+      @include mixins.gradient-border
+
+  .education-item
+    display: flex
+    align-items: center
+    margin-bottom: 1.5rem
+
+    .education-icon
+      font-size: 2rem
+      margin-right: 1rem
+      color: variables.$text-color
+
+    h3
+      color: variables.$text-color
+      font-size: 1rem
+
+    .institution
+      color: variables.$text-color
+      padding-top: 0.3rem
+      padding-bottom: 0.2rem
+      line-height: 1.3rem
+      font-size: 0.9rem
+      font-weight: 400
+
+
+
+    span
+      color: variables.$text-color-secondary
+      font-size: 0.9rem
