@@ -20,6 +20,9 @@ span
     border-radius: 10px
     
 .arrow-page
-    @include mixins.box-shadow(#0011ff, 1)
-    @include mixins.hover-shadow(#ff0000, 1) 
-    font-weight: bold
+  box-shadow: 0px 0px 10px rgba(0, 17, 255, 0.9)
+  font-weight: bold
+
+  &:hover
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.9)
+    transition: box-shadow 0.3s ease-in-out
