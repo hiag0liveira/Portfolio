@@ -46,7 +46,37 @@
        
     .btn
         @include mixins.btn
-       
+
+    .menu
+      position: sticky
+      top: 10rem 
+      margin-top: 1rem
+      width: 100%
+    
+      ul
+          list-style: none
+          padding: 0
+
+          li
+              margin: 0.8rem 0
+
+              a
+                  text-decoration: none
+                  color: variables.$text-color-secondary
+                  font-weight: bold
+                  transition: color 0.3s
+                  padding: 0.5rem
+                  display: block
+
+                  &:hover
+                      color: variables.$text-color
+                      background-color: variables.$bg-color-secondary
+                      border-radius: variables.$container-border-radius        
+
+    @media (max-width: 880px)
+      .menu
+          display: none
+      
 
 @keyframes bounce 
   0%, 20%, 50%, 80%, 100% 

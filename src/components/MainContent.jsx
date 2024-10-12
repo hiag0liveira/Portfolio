@@ -8,11 +8,25 @@ import ExperienceContainer from "./ExperienceContainer";
 const MainContent = () => {
   return (
     <main id="main-content">
-      <AboutContainer />
-      <ExperienceContainer />
-      <EducationContainer />
-      <ProjectsContainer />
-      <TechnologiesContainer />
+      <section id="about">
+        <AboutContainer />
+      </section>
+
+      <section id="experience">
+        <ExperienceContainer />
+      </section>
+
+      <section id="education">
+        <EducationContainer />
+      </section>
+
+      <section id="projects">
+        <ProjectsContainer />
+      </section>
+
+      <section id="technologies">
+        <TechnologiesContainer />
+      </section>
     </main>
   );
 };
