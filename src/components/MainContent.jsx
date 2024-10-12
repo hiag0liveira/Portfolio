@@ -8,23 +8,23 @@ import ExperienceContainer from "./ExperienceContainer";
 const MainContent = () => {
   return (
     <main id="main-content">
-      <section id="about">
+      <section id="Sobre Mim">
         <AboutContainer />
       </section>
 
-      <section id="experience">
+      <section id="Experiencia Profissional">
         <ExperienceContainer />
       </section>
 
-      <section id="education">
+      <section id="Formação Acadêmica">
         <EducationContainer />
       </section>
 
-      <section id="projects">
+      <section id="Projetos">
         <ProjectsContainer />
       </section>
 
-      <section id="technologies">
+      <section id="Tecnologias">
         <TechnologiesContainer />
       </section>
     </main>

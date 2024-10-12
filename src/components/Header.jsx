@@ -1,4 +1,5 @@
 import { RxHamburgerMenu } from "react-icons/rx";
+import { MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { MdOutlineArrowBackIos } from "react-icons/md";
@@ -11,6 +12,10 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header mobile-header">
       <h1>
@@ -19,26 +24,37 @@ function Header() {
         <MdOutlineArrowForwardIos className="arrow" />
       </h1>
       <button className="hamburger" onClick={toggleMenu}>
-        <RxHamburgerMenu />
+        {isMenuOpen ? <MdOutlineClose /> : <RxHamburgerMenu />}
       </button>
-      {isMenuOpen && (
-        <nav className="mobile-menu">
-          <ul>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#more">Saiba Mais</a>
-            </li>
-            <li>
-              <a href="#technologies">Tecnologias</a>
-            </li>
-            <li>
-              <a href="#projects">Projetos</a>
-            </li>
-          </ul>
-        </nav>
-      )}
+      <nav className={`mobile-menu ${isMenuOpen ? "open" : "closed"}`}>
+        <ul>
+          <li>
+            <a href="#Sobre Mim" onClick={closeMenu}>
+              Sobre Mim
+            </a>
+          </li>
+          <li>
+            <a href="#Experiencia Profissional" onClick={closeMenu}>
+              Experiencia Profissional
+            </a>
+          </li>
+          <li>
+            <a href="#Formação Acadêmica" onClick={closeMenu}>
+              Formação Acadêmica
+            </a>
+          </li>
+          <li>
+            <a href="#Projetos" onClick={closeMenu}>
+              Projetos
+            </a>
+          </li>
+          <li>
+            <a href="#Tecnologias" onClick={closeMenu}>
+              Tecnologias
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

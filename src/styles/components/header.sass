@@ -5,8 +5,8 @@
   background-color: #111111
   color: #fff
   width: 100%
-  margin-bottom: 4rem
-  
+  height: 6rem
+  display: flex
 
   h1
     font-size: 1.2rem
@@ -20,19 +20,36 @@
     font-size: 2rem
     cursor: pointer
 
-  .mobile-menu
-    position: absolute
-    top: 3.5rem
-    right: 0rem
-    background-color: #111
-    padding: 1rem
-    padding-bottom: 100vh
-    border-radius: 5px
-    ul
-      list-style: none
-      padding: 0
-      li
-        margin: 1rem 0
-        a
-          color: #fff
-          text-decoration: none
+.mobile-menu
+  position: absolute
+  top: -100vh 
+  right: 0
+  background-color: #252525
+  width: 100%
+  padding: 1rem
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  transition: all 0.5s ease 
+  z-index: 10
+  height: 100vh
+
+  ul
+    list-style: none
+    padding: 0
+
+    li
+      margin: 1rem 0
+
+      a
+        color: #ffffff
+        font-size: 1.5rem
+        text-decoration: none
+
+.mobile-menu.open
+  top: 6rem 
+
+.mobile-menu.closed
+  top: -100vh 
