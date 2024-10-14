@@ -145,5 +145,46 @@
         ],
         "demo": "https://plantify-app.vercel.app/",
         "code": "https://github.com/hiag0liveira/Plantify-APP"
+    },
+    {
+        "id": 9,
+        "name": "Breaking News - Front-end",
+        "techs": [
+            "React",
+            "JavaScript",
+            "Express",
+            "Node",
+            "JWT",
+            "Axios"
+        ],
+        "imgs": [
+            "/statics/images/BreakingNewsFrontEnd/1.png",
+            "/statics/images/BreakingNewsFrontEnd/2.png",
+            "/statics/images/BreakingNewsFrontEnd/3.png",
+            "/statics/images/BreakingNewsFrontEnd/4.png",
+            "/statics/images/BreakingNewsFrontEnd/5.png"
+        ],
+        "demo": "https://breaking-news-rho.vercel.app/",
+        "code": "https://github.com/hiag0liveira/BreakingNewsFrontEnd"
+    },
+    {
+        "id": 10,
+        "name": "Breaking News - Back-end",
+        "techs": [
+            "Express",
+            "JavaScript",
+            "MongoDB",
+            "Node",
+            "JWT",
+            "Swagger"
+        ],
+        "imgs": [
+            "/statics/images/BreakingNewsBackEnd/1.png",
+            "/statics/images/BreakingNewsBackEnd/2.png",
+            "/statics/images/BreakingNewsBackEnd/3.png",
+            "/statics/images/BreakingNewsBackEnd/4.png"
+        ],
+        "demo": "https://api-breakingnews-dvti.onrender.com/doc/",
+        "code": "https://github.com/hiag0liveira/BreakingNewsBackEnd"
     }
 ]
