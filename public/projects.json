@@ -109,5 +109,41 @@
         ],
         "demo": "https://departmentcontrolspring.onrender.com/",
         "code": "https://github.com/hiag0liveira/DepartmentControlSpring"
+    },
+    {
+        "id": 7,
+        "name": "Loja de Eletrônicos",
+        "techs": [
+            "Next",
+            "JavaScript"
+        ],
+        "imgs": [
+            "/statics/images/ElectronicsStoreNext/1.png",
+            "/statics/images/ElectronicsStoreNext/2.png",
+            "/statics/images/ElectronicsStoreNext/3.png"
+        ],
+        "demo": "https://black-nextjs-lemon.vercel.app/",
+        "code": "https://github.com/hiag0liveira/ElectronicsStoreNext.JS"
+    },
+    {
+        "id": 8,
+        "name": "Plantify",
+        "techs": [
+            "React",
+            "JavaScript",
+            "TailwindCSS",
+            "JWT",
+            "Axios",
+            "Vite"
+        ],
+        "imgs": [
+            "/statics/images/Plantify/1.png",
+            "/statics/images/Plantify/2.png",
+            "/statics/images/Plantify/3.png",
+            "/statics/images/Plantify/4.png",
+            "/statics/images/Plantify/5.png"
+        ],
+        "demo": "https://plantify-app.vercel.app/",
+        "code": "https://github.com/hiag0liveira/Plantify-APP"
     }
 ]
