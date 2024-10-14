@@ -25,13 +25,6 @@ const ExperienceContainer = () => {
       tasks:
         "Fui responsável por toda a TI de uma start-up em rápido crescimento, acumulando diversas responsabilidades. Desenvolvi aplicações e plugins em Python para otimizar processos e documentação, criei e mantive o site da empresa, além de prestar assistência técnica e controlar equipamentos de informática. Também cuidei da infraestrutura de rede, emiti relatórios e laudos técnicos, providenciei materiais para manutenção e orientei operadores sobre o uso adequado de equipamentos, garantindo o bom funcionamento da área tecnológica.",
     },
-    {
-      title: "Analista de dados com PowerBi",
-      company: "Univitta Campos Saúde LTDA",
-      date: "Julho/2019 a Março/2022",
-      tasks:
-        "Como analista de dados com PowerBi realizava a extração de dados e montava gráficos dinâmicos e práticos, para facilitar a análise de gestão, gerando relatórios para poder tomar as melhores decisões e consequentemente impactando de forma positiva a produtividade. Suporte Comercial, auxílio nas atividades de cobrança, atendimento telefônico, atendimento presencial, digitação de documento no sistema, digitalização de documentos e outras atividades administrativas. ",
-    },
   ];
 
   return (
