@@ -186,5 +186,20 @@
         ],
         "demo": "https://api-breakingnews-dvti.onrender.com/doc/",
         "code": "https://github.com/hiag0liveira/BreakingNewsBackEnd"
+    },
+    {
+        "id": 11,
+        "name": "Controle de Inventário",
+        "techs": [
+            "React Router",
+            "React"
+        ],
+        "imgs": [
+            "/statics/images/InvetoryControl/1.png",
+            "/statics/images/InvetoryControl/2.png",
+            "/statics/images/InvetoryControl/3.png"
+        ],
+        "demo": "https://inventory-control-react.vercel.app/",
+        "code": "https://github.com/hiag0liveira/InventoryControlReact"
     }
 ]
