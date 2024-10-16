@@ -1,36 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Ol1v3irax Spaceships",
+        "name": "Breaking News - Front-end",
         "techs": [
-            "HTML5",
-            "Sass",
-            "Bootstrap",
-            "Animate On Scroll Library"
+            "React",
+            "JavaScript",
+            "Express",
+            "Node",
+            "JWT",
+            "Axios"
         ],
         "imgs": [
-            "/statics/images/Ol1v3iraxSpaceships/1.png",
-            "/statics/images/Ol1v3iraxSpaceships/2.png",
-            "/statics/images/Ol1v3iraxSpaceships/3.png",
-            "/statics/images/Ol1v3iraxSpaceships/4.png"
+            "/statics/images/BreakingNewsFrontEnd/1.png",
+            "/statics/images/BreakingNewsFrontEnd/2.png",
+            "/statics/images/BreakingNewsFrontEnd/3.png",
+            "/statics/images/BreakingNewsFrontEnd/4.png",
+            "/statics/images/BreakingNewsFrontEnd/5.png"
         ],
-        "demo": "https://hiag0liveira.github.io/Ol1v3iraxSpaceships/",
-        "code": "https://github.com/hiag0liveira/Ol1v3iraxSpaceships"
+        "demo": "https://breaking-news-rho.vercel.app/",
+        "code": "https://github.com/hiag0liveira/BreakingNewsFrontEnd"
     },
     {
         "id": 2,
-        "name": "Registration Page Ol1v3irax",
+        "name": "Breaking News - Back-end",
         "techs": [
-            "HTML5",
-            "Sass",
-            "Bootstrap"
+            "Express",
+            "JavaScript",
+            "MongoDB",
+            "Node",
+            "JWT",
+            "Swagger"
         ],
         "imgs": [
-            "/statics/images/RegistrationPageOl1v3irax/1.png",
-            "/statics/images/RegistrationPageOl1v3irax/2.png"
+            "/statics/images/BreakingNewsBackEnd/1.png",
+            "/statics/images/BreakingNewsBackEnd/2.png",
+            "/statics/images/BreakingNewsBackEnd/3.png",
+            "/statics/images/BreakingNewsBackEnd/4.png"
         ],
-        "demo": "https://hiag0liveira.github.io/RegistrationPageOl1v3irax/",
-        "code": "https://github.com/hiag0liveira/RegistrationPageOl1v3irax"
+        "demo": "https://api-breakingnews-dvti.onrender.com/doc/",
+        "code": "https://github.com/hiag0liveira/BreakingNewsBackEnd"
     },
     {
         "id": 3,
@@ -56,37 +64,6 @@
     },
     {
         "id": 4,
-        "name": "Calculadora JS",
-        "techs": [
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        "imgs": [
-            "/statics/images/CalculatorJS/1.png",
-            "/statics/images/CalculatorJS/2.png"
-        ],
-        "demo": "https://hiag0liveira.github.io/CalculatorJS/",
-        "code": "https://github.com/hiag0liveira/CalculatorJS"
-    },
-    {
-        "id": 5,
-        "name": "Jogo da Velha JS",
-        "techs": [
-            "HTML5",
-            "CSS3",
-            "JavaScript"
-        ],
-        "imgs": [
-            "/statics/images/HashGameJS/1.png",
-            "/statics/images/HashGameJS/2.png",
-            "/statics/images/HashGameJS/3.png"
-        ],
-        "demo": "https://hiag0liveira.github.io/HashGameJS/",
-        "code": "https://github.com/hiag0liveira/HashGameJS"
-    },
-    {
-        "id": 6,
         "name": "Controle de Departamentos",
         "techs": [
             "Spring Boot",
@@ -111,22 +88,22 @@
         "code": "https://github.com/hiag0liveira/DepartmentControlSpring"
     },
     {
-        "id": 7,
-        "name": "Loja de Eletrônicos",
+        "id": 5,
+        "name": "Controle de Inventário",
         "techs": [
-            "Next",
-            "JavaScript"
+            "React Router",
+            "React"
         ],
         "imgs": [
-            "/statics/images/ElectronicsStoreNext/1.png",
-            "/statics/images/ElectronicsStoreNext/2.png",
-            "/statics/images/ElectronicsStoreNext/3.png"
+            "/statics/images/InvetoryControl/1.png",
+            "/statics/images/InvetoryControl/2.png",
+            "/statics/images/InvetoryControl/3.png"
         ],
-        "demo": "https://black-nextjs-lemon.vercel.app/",
-        "code": "https://github.com/hiag0liveira/ElectronicsStoreNext.JS"
+        "demo": "https://inventory-control-react.vercel.app/",
+        "code": "https://github.com/hiag0liveira/InventoryControlReact"
     },
     {
-        "id": 8,
+        "id": 6,
         "name": "Plantify",
         "techs": [
             "React",
@@ -147,59 +124,82 @@
         "code": "https://github.com/hiag0liveira/Plantify-APP"
     },
     {
-        "id": 9,
-        "name": "Breaking News - Front-end",
+        "id": 7,
+        "name": "Jogo da Velha JS",
         "techs": [
-            "React",
-            "JavaScript",
-            "Express",
-            "Node",
-            "JWT",
-            "Axios"
+            "HTML5",
+            "CSS3",
+            "JavaScript"
         ],
         "imgs": [
-            "/statics/images/BreakingNewsFrontEnd/1.png",
-            "/statics/images/BreakingNewsFrontEnd/2.png",
-            "/statics/images/BreakingNewsFrontEnd/3.png",
-            "/statics/images/BreakingNewsFrontEnd/4.png",
-            "/statics/images/BreakingNewsFrontEnd/5.png"
+            "/statics/images/HashGameJS/1.png",
+            "/statics/images/HashGameJS/2.png",
+            "/statics/images/HashGameJS/3.png"
         ],
-        "demo": "https://breaking-news-rho.vercel.app/",
-        "code": "https://github.com/hiag0liveira/BreakingNewsFrontEnd"
+        "demo": "https://hiag0liveira.github.io/HashGameJS/",
+        "code": "https://github.com/hiag0liveira/HashGameJS"
+    },
+    {
+        "id": 8,
+        "name": "Calculadora JS",
+        "techs": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "imgs": [
+            "/statics/images/CalculatorJS/1.png",
+            "/statics/images/CalculatorJS/2.png"
+        ],
+        "demo": "https://hiag0liveira.github.io/CalculatorJS/",
+        "code": "https://github.com/hiag0liveira/CalculatorJS"
+    },
+    {
+        "id": 9,
+        "name": "Loja de Eletrônicos",
+        "techs": [
+            "Next",
+            "JavaScript"
+        ],
+        "imgs": [
+            "/statics/images/ElectronicsStoreNext/1.png",
+            "/statics/images/ElectronicsStoreNext/2.png",
+            "/statics/images/ElectronicsStoreNext/3.png"
+        ],
+        "demo": "https://black-nextjs-lemon.vercel.app/",
+        "code": "https://github.com/hiag0liveira/ElectronicsStoreNext.JS"
     },
     {
         "id": 10,
-        "name": "Breaking News - Back-end",
+        "name": "Ol1v3irax Spaceships",
         "techs": [
-            "Express",
-            "JavaScript",
-            "MongoDB",
-            "Node",
-            "JWT",
-            "Swagger"
+            "HTML5",
+            "Sass",
+            "Bootstrap",
+            "Animate On Scroll Library"
         ],
         "imgs": [
-            "/statics/images/BreakingNewsBackEnd/1.png",
-            "/statics/images/BreakingNewsBackEnd/2.png",
-            "/statics/images/BreakingNewsBackEnd/3.png",
-            "/statics/images/BreakingNewsBackEnd/4.png"
+            "/statics/images/Ol1v3iraxSpaceships/1.png",
+            "/statics/images/Ol1v3iraxSpaceships/2.png",
+            "/statics/images/Ol1v3iraxSpaceships/3.png",
+            "/statics/images/Ol1v3iraxSpaceships/4.png"
         ],
-        "demo": "https://api-breakingnews-dvti.onrender.com/doc/",
-        "code": "https://github.com/hiag0liveira/BreakingNewsBackEnd"
+        "demo": "https://hiag0liveira.github.io/Ol1v3iraxSpaceships/",
+        "code": "https://github.com/hiag0liveira/Ol1v3iraxSpaceships"
     },
     {
         "id": 11,
-        "name": "Controle de Inventário",
+        "name": "Registration Page Ol1v3irax",
         "techs": [
-            "React Router",
-            "React"
+            "HTML5",
+            "Sass",
+            "Bootstrap"
         ],
         "imgs": [
-            "/statics/images/InvetoryControl/1.png",
-            "/statics/images/InvetoryControl/2.png",
-            "/statics/images/InvetoryControl/3.png"
+            "/statics/images/RegistrationPageOl1v3irax/1.png",
+            "/statics/images/RegistrationPageOl1v3irax/2.png"
         ],
-        "demo": "https://inventory-control-react.vercel.app/",
-        "code": "https://github.com/hiag0liveira/InventoryControlReact"
+        "demo": "https://hiag0liveira.github.io/RegistrationPageOl1v3irax/",
+        "code": "https://github.com/hiag0liveira/RegistrationPageOl1v3irax"
     }
 ]
