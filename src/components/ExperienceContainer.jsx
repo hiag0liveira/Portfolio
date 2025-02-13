@@ -5,6 +5,13 @@ import "../styles/components/experienceContainer.sass";
 const ExperienceContainer = () => {
   const experienceData = [
     {
+      title: "Desenvolvedor de Software Junior",
+      company: "LRGE Systems",
+      date: "Outubro/2024 - Atualmente",
+      tasks:
+        "Como desenvolvedor full stack na LRGE Systems, atuo no desenvolvimento e manutenção de soluções tecnológicas para diversos clientes, utilizando uma variedade de tecnologias, incluindo PHP com Laravel, C#, React Native, React e NestJS. Minha função envolve a criação de sistemas web e móveis, integração de APIs e otimização de desempenho, garantindo que as soluções atendam às necessidades específicas de cada cliente. Trabalho em estreita colaboração com equipes multifuncionais para entregar produtos de alta qualidade, alinhados aos objetivos de negócios dos clientes. A LRGE Systems é uma empresa de software que desenvolve, customiza e aprimora sistemas e soluções para diversas necessidades relacionadas a sistemas embarcados e distribuídos, web e ferramentas digitais, atendendo grandes e médias empresas.",
+    },
+    {
       title: "Desenvolvedor Back-end",
       company: "Polo de Inovação Campos dos Goytacazes (PICG)",
       date: "Abril/2024 - Atualmente",
