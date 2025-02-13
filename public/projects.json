@@ -20,58 +20,21 @@
         "code": "https://github.com/hiag0liveira/virtual-cell-phone"
     },
     {
-        "id": 13,
-        "name": "Controle de Gastos - Front-end",
-        "techs": [
-            "Vite",
-            "TypeScript",
-            "React",
-            "React Form",
-            "React Router",
-            "Chart.js",
-            "TailWindCSS",
-            "Toastify"
-        ],
-        "imgs": [
-            "/statics/images/ExpenseControlFrontEnd/1.png",
-            "/statics/images/ExpenseControlFrontEnd/2.png",
-            "/statics/images/ExpenseControlFrontEnd/3.png",
-            "/statics/images/ExpenseControlFrontEnd/4.png"
-        ],
-        "demo": "https://expense-control-frontend.vercel.app/",
-        "code": "https://github.com/hiag0liveira/ExpenseControlFrontend"
-    },
-    {
-        "id": 12,
-        "name": "Controle de Gastos - Back-end",
-        "techs": [
-            "Nest",
-            "TypeScript",
-            "JWT",
-            "PostgreSQL",
-            "TypeORM",
-            "Class Validator",
-            "Insomnia",
-            "Jest"
-        ],
-        "imgs": [
-            "/statics/images/ExpenseControlBackEnd/1.png",
-            "/statics/images/ExpenseControlBackEnd/2.png",
-            "/statics/images/ExpenseControlBackEnd/3.png"
-        ],
-        "demo": "https://expense-control-frontend.vercel.app/",
-        "code": "https://github.com/hiag0liveira/ExpenseControlBackend"
-    },
-    {
         "id": 1,
-        "name": "Breaking News - Front-end",
+        "name": "Breaking News",
         "techs": [
             "React",
             "JavaScript",
             "Express",
             "Node",
             "JWT",
-            "Axios"
+            "Axios",
+            "Express",
+            "JavaScript",
+            "MongoDB",
+            "Node",
+            "JWT",
+            "Swagger"
         ],
         "imgs": [
             "/statics/images/BreakingNewsFrontEnd/1.png",
@@ -82,26 +45,6 @@
         ],
         "demo": "https://breaking-news-rho.vercel.app/",
         "code": "https://github.com/hiag0liveira/BreakingNewsFrontEnd"
-    },
-    {
-        "id": 2,
-        "name": "Breaking News - Back-end",
-        "techs": [
-            "Express",
-            "JavaScript",
-            "MongoDB",
-            "Node",
-            "JWT",
-            "Swagger"
-        ],
-        "imgs": [
-            "/statics/images/BreakingNewsBackEnd/1.png",
-            "/statics/images/BreakingNewsBackEnd/2.png",
-            "/statics/images/BreakingNewsBackEnd/3.png",
-            "/statics/images/BreakingNewsBackEnd/4.png"
-        ],
-        "demo": "https://api-breakingnews-dvti.onrender.com/doc/",
-        "code": "https://github.com/hiag0liveira/BreakingNewsBackEnd"
     },
     {
         "id": 3,
@@ -124,31 +67,6 @@
         ],
         "demo": "https://documenter.getpostman.com/view/25811172/2s93JtQ3zT",
         "code": "https://github.com/hiag0liveira/ProductSalesAPISpringBoot?tab=readme-ov-file"
-    },
-    {
-        "id": 4,
-        "name": "Controle de Departamentos",
-        "techs": [
-            "Spring Boot",
-            "Java",
-            "Maven",
-            "PostgreSQL",
-            "Lombok",
-            "Spring Data JPA",
-            "MVC",
-            "Thymeleaf",
-            "WebJars",
-            "Bootstrap",
-            "Hibernate ORM"
-        ],
-        "imgs": [
-            "/statics/images/DepartmentControlSpring/1.png",
-            "/statics/images/DepartmentControlSpring/2.png",
-            "/statics/images/DepartmentControlSpring/3.png",
-            "/statics/images/DepartmentControlSpring/4.png"
-        ],
-        "demo": "https://departmentcontrolspring.onrender.com/",
-        "code": "https://github.com/hiag0liveira/DepartmentControlSpring"
     },
     {
         "id": 5,
