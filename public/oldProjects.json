@@ -41,30 +41,5 @@
         ],
         "demo": "https://expense-control-frontend.vercel.app/",
         "code": "https://github.com/hiag0liveira/ExpenseControlBackend"
-    },
-    {
-        "id": 4,
-        "name": "Controle de Departamentos",
-        "techs": [
-            "Spring Boot",
-            "Java",
-            "Maven",
-            "PostgreSQL",
-            "Lombok",
-            "Spring Data JPA",
-            "MVC",
-            "Thymeleaf",
-            "WebJars",
-            "Bootstrap",
-            "Hibernate ORM"
-        ],
-        "imgs": [
-            "/statics/images/DepartmentControlSpring/1.png",
-            "/statics/images/DepartmentControlSpring/2.png",
-            "/statics/images/DepartmentControlSpring/3.png",
-            "/statics/images/DepartmentControlSpring/4.png"
-        ],
-        "demo": "https://departmentcontrolspring.onrender.com/",
-        "code": "https://github.com/hiag0liveira/DepartmentControlSpring"
     }
 ]
