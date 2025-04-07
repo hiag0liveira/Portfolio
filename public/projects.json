@@ -1,5 +1,22 @@
 [
     {
+        "id": 16,
+        "name": "Monitoramento Inteligente da Qualidade da Água com Lógica Fuzzy",
+        "techs": [
+            "JavaScript",
+            "Vite",
+            "Vue",
+            "Chart.js"
+        ],
+        "imgs": [
+            "/statics/images/FuzzyWaterQuality/1.png",
+            "/statics/images/FuzzyWaterQuality/2.png",
+            "/statics/images/FuzzyWaterQuality/3.png"
+        ],
+        "demo": "https://fuzzy-water-quality.vercel.app/",
+        "code": "https://github.com/hiag0liveira/FuzzyWaterQuality"
+    },
+    {
         "id": 15,
         "name": "Listador de Marcas de carros",
         "techs": [
